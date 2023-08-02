@@ -1,0 +1,37 @@
+EventId,EventTemplate,Occurrences
+0,"Registered signal handlers for [TERM, HUP, INT]",1
+1,Changing view acls to: <*>,2
+2,Changing modify acls to: <*>,2
+3,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)",2
+4,Slf4jLogger started,1
+5,Starting remoting,1
+6,Remoting started; listening on addresses:[akka.tcp://sparkExecutorActorSystem@mesos-slave-<*>],1
+7,Successfully started service 'sparkExecutorActorSystem' on port <*>.,1
+8,Created local directory at <*>,1
+9,MemoryStore started with capacity <*> GB,1
+10,Connecting to driver: spark://<*>,1
+11,Successfully registered with driver,1
+12,Starting executor ID <*> on host <*>,1
+13,Successfully started service '<*>' on port <*>.,1
+14,Server created on <*>,1
+15,Trying to register BlockManager,1
+16,Registered BlockManager,1
+17,Got assigned task <*>,305
+18,Running task <*> in stage <*> (TID <*>),305
+19,Started reading broadcast variable <*>,37
+20,"Block <*> stored as bytes in memory (estimated size <*>, free <*>)",112
+21,Reading broadcast variable <*> took <*> ms,37
+22,"Block <*> stored as values in memory (estimated size <*>, free <*>)",37
+23,"Partition <*> not found, computing it",75
+24,Input split: hdfs://<*>,45
+25,"mapred.tip.id is deprecated. Instead, use mapreduce.task.id",1
+26,"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id",1
+27,"mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap",1
+28,"mapred.job.id is deprecated. Instead, use mapreduce.job.id",1
+29,"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition",1
+30,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>",375
+31,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,300
+32,Found block <*> locally,257
+33,File Output Committer Algorithm version is <*>,30
+34,Saved output of task '<*>' to hdfs://<*>,30
+35,<*>: Committed,30

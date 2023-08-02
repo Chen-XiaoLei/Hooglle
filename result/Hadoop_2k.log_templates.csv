@@ -1,0 +1,120 @@
+EventId,EventTemplate,Occurrences
+0,Created MRAppMaster for application <*>,1
+1,Executing with tokens:,1
+2,"Kind: <*> Service: ,Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> keyId: <*>)",1
+3,Using mapred newApiCommitter.,1
+4,OutputCommitter set in config <*>,1
+5,OutputCommitter is <*>,1
+6,Registering class org.apache.hadoop.mapreduce.jobhistory.EventType for class org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler,1
+7,Registering class <*> for class <*>,8
+8,Default file system [hdfs://<*>:<*>],3
+9,Emitting job history data to the timeline server is not enabled,1
+10,loaded properties from hadoop-metrics2.properties,1
+11,Scheduled snapshot period at <*> second(s).,1
+12,MRAppMaster metrics system started,1
+13,Adding job token for <*> to jobTokenSecretManager,1
+14,Not uberizing job<*> because: not enabled; too many maps; too much input;,1
+15,Input size for job <*> = <*>. Number of splits = <*>,1
+16,Number of reduces for job <*> = <*>,1
+17,<*> Transitioned from NEW to INITED,1
+18,"MRAppMaster launching normal, non-uberized, multi-container job <*>.",1
+19,Using callQueue class java.util.concurrent.LinkedBlockingQueue,2
+20,Starting Socket Reader #<*> for port <*>,2
+21,Adding protocol <*> to the server,1
+22,Instantiated MRClientService at <*>:<*>,1
+23,IPC Server Responder: starting,2
+24,IPC Server listener on <*>: starting,2
+25,Logging to <*>(org.mortbay.log) via <*>,1
+26,Http request log for http.requests.mapreduce is not defined,1
+27,Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter),1
+28,Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce,1
+29,Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static,1
+30,adding path spec: <*>,2
+31,Jetty bound to port <*>,1
+32,jetty-<*>,1
+33,Extract jar:file:<*> to <*>,1
+34,Started HttpServer2$SelectChannelConnectorWithSafeStartup@<*>:<*>,1
+35,Web app <*> started at <*>,1
+36,Registered webapp guice modules,1
+37,JOB_ CREATE job<*>,1
+38,nodeBlacklistingEnabled:<*>,1
+39,maxTaskFailuresPerNode is <*>,1
+40,blacklistDisablePercent is <*>,1
+41,Connecting to ResourceManager at <*>:<*>,1
+42,"maxContainerCapability: <memory:<*>, vCores:<*>>",1
+43,queue: <*>,1
+44,Upper limit on the thread pool size is <*>,1
+45,yarn.client.max-cached-nodemanagers-proxies : <*>,1
+46,<*> Transitioned from INITED to SETUP,1
+47,Processing the event EventType: JOB_SETUP,1
+48,<*> Transitioned from SETUP to RUNNING,1
+49,Resolved MSRA-SA-<*> to <*>,33
+50,<*> Task Transitioned from NEW to SCHEDULED,11
+51,<*> TaskAttempt Transitioned from NEW to UNASSIGNED,14
+52,"mapResourceRequest:<memory:<*>, vCores:<*>>",1
+53,"Event Writer setup for JobId: <*>, File: hdfs://<*>",1
+54,"reduceResourceRequest:<memory:<*>, vCores:<*>>",1
+55,Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,5
+56,getResources() for application_<*>: ask=<*> release=<*> newContainers=<*> finishedContainers=<*> resourcelimit=<*> knownNMs=<*>,12
+57,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",131
+58,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,130
+59,Got allocated containers <*>,10
+60,Resolved <*> to <*>,2
+61,Assigned container <*> to attempt_<*>,10
+62,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,12
+63,The job-jar file on the remoteFS is <*>,1
+64,The job-conf file on the remoteFS is <*>,1
+65,Adding #<*> tokens and #<*> secret keys for NM use for launching container,1
+66,Size of containertokens_dob is <*>,1
+67,putting shuffle token in serviceData,1
+68,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,10
+69,Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container <*> taskAttempt <*>,10
+70,Launching <*>,10
+71,Opening proxy : <*>:<*>,13
+72,Shuffle port returned by ContainerManager for <*>,10
+73,TaskAttempt: [attempt_1445144423722_0020_m_000000_0] using containerId: [container_<*> on NM: [<*>:<*>],1
+74,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,10
+75,ATTEMPT_START task_<*>,10
+76,<*> Task Transitioned from SCHEDULED to RUNNING,10
+77,Resolved MININT-FNANLI5.fareast.corp.microsoft.com to <*>,4
+78,TaskAttempt: [attempt_1445144423722_0020_m_000001_0] using containerId: [container_<*> on NM: [MININT-FNANLI5.fareast.corp.microsoft.com:52368],2
+79,Auth successful for <*> (auth:SIMPLE),10
+80,JVM with ID : <*> asked for a task,10
+81,JVM with ID: <*> given task: attempt_<*>,10
+82,Progress of TaskAttempt <*> is : <*>,289
+83,TaskAttempt: [attempt_1445144423722_0020_m_000003_0] using containerId: [container_<*> on NM: [MSRA-SA-<*>:<*>],7
+84,"Cannot assign container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <*>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*> },] for a map as either container memory less than required <*> or no pending map tasks - maps.isEmpty=true",1
+85,Received completed container <*>,2
+86,Container complete event for unknown container id <*>,1
+87,Done acknowledgement from <*>,1
+88,<*> TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP,1
+89,Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container <*> taskAttempt <*>,3
+90,KILLING <*>,3
+91,<*> TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED,1
+92,Task succeeded with attempt <*>,1
+93,<*> Task Transitioned from RUNNING to SUCCEEDED,1
+94,Num completed Tasks: <*>,1
+95,Reduce slow start threshold reached. Scheduling reduces.,1
+96,All maps assigned. Ramping up all remaining reduces:<*>,1
+97,DefaultSpeculator.addSpeculativeAttempt -- we are speculating task_<*>_<*>*m*<*>,1
+98,We launched <*> speculations. Sleeping <*> milliseconds.,1
+99,Scheduling a redundant attempt for task <*>,1
+100,Diagnostics report from <*>: Container killed by the ApplicationMaster.,1
+101,Address change detected. Old: <*>/<*>:<*> New: <*>:<*>,476
+102,Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...,326
+103,"Slow ReadProcessor read fields took <*>ms (threshold=<*>ms); ack: seqno: <*> status: SUCCESS status: ERROR downstreamAckTimeNanos: <*>, targets: [<*>:<*>]",1
+104,DFSOutputStream ResponseProcessor exception for block <*>-<*>-<*>:blk_<*>,1
+105,"Error Recovery for block BP-<*>:<*> in pipeline <*>:<*>, <*>:<*>: bad datanode <*>:<*>",1
+106,DataStreamer Exception,1
+107,ERROR IN CONTACTING RM.,147
+108,"Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)",146
+109,Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,2
+110,Diagnostics report from attempt_1445144423722_0020_m_000002_0: Error: java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI5/<*> to msra-sa-<*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,4
+111,<*> TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP,2
+112,<*> TaskAttempt Transitioned from <*> to <*>,4
+113,Processing the event EventType: TASK_ABORT,2
+114,Task cleanup failed for attempt <*>,2
+115,Error writing History Event: <*>,1
+116,"Thread Thread[eventHandlingThread,<*>,main] threw an Exception.",1
+117,<*> failures on node <*>,2
+118,Added attempt_<*> to list of failed maps,2
